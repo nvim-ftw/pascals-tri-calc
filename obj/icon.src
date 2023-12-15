@@ -1,0 +1,27 @@
+	section .icon
+
+	jp	___prgm_init
+	db	$01
+	public ___icon
+___icon:
+	db	$10, $10
+	db	$BA, $BA, $BA, $BA, $BA, $BA, $BA, $7C, $7C, $BA, $BA, $BA, $BA, $BA, $BA, $BA
+	db	$BA, $BA, $BA, $BA, $BA, $7C, $7C, $7C, $7C, $7C, $7C, $BA, $BA, $BA, $BA, $BA
+	db	$BA, $BA, $BA, $7C, $7C, $7C, $7C, $7C, $7C, $7C, $7C, $7C, $7C, $BA, $BA, $BA
+	db	$BA, $7C, $7C, $7C, $7C, $FF, $FF, $FF, $FF, $FF, $FF, $7C, $7C, $7C, $7C, $BA
+	db	$7C, $7C, $7C, $7C, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $7C, $7C, $7C, $13
+	db	$7C, $7C, $7C, $FF, $FF, $FF, $FF, $7C, $7C, $FF, $FF, $FF, $FF, $13, $13, $13
+	db	$7C, $7C, $FF, $FF, $FF, $FF, $7C, $7C, $7C, $7C, $FF, $13, $13, $13, $13, $13
+	db	$7C, $7C, $FF, $FF, $FF, $7C, $7C, $7C, $7C, $13, $13, $13, $13, $13, $13, $13
+	db	$7C, $7C, $FF, $FF, $FF, $7C, $7C, $12, $12, $13, $13, $13, $13, $13, $13, $13
+	db	$7C, $7C, $FF, $FF, $FF, $FF, $12, $12, $12, $12, $FF, $13, $13, $13, $13, $13
+	db	$7C, $7C, $7C, $FF, $FF, $FF, $FF, $12, $12, $FF, $FF, $FF, $FF, $13, $13, $13
+	db	$7C, $12, $12, $12, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $12, $12, $12, $13
+	db	$BA, $12, $12, $12, $12, $FF, $FF, $FF, $FF, $FF, $FF, $12, $12, $12, $12, $BA
+	db	$BA, $BA, $BA, $12, $12, $12, $12, $12, $12, $12, $12, $12, $12, $BA, $BA, $BA
+	db	$BA, $BA, $BA, $BA, $BA, $12, $12, $12, $12, $12, $12, $BA, $BA, $BA, $BA, $BA
+	db	$BA, $BA, $BA, $BA, $BA, $BA, $BA, $12, $12, $BA, $BA, $BA, $BA, $BA, $BA, $BA
+	public ___description
+___description:
+	db	"Doing things", 0
+___prgm_init:

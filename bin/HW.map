@@ -1,0 +1,66 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A996           114h
+.init.libs       D1A996 D1A9EE            58h
+.libs            D1A9EE D1AA29            3Bh
+.init.clock      D1AA29 D1AA29             0h
+.init.reruncheck D1AA29 D1AA29             0h
+.init            D1AA29 D1AA49            20h
+.fini            D1AA49 D1AA7D            34h
+.text            D1AA7D D1AC2A           1ADh
+.data            D1AC2A D1AC2A             0h
+.rodata          D1AC2A D1AC70            46h
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D052C6 D13FD8      0h
+.header          D1A87F D1A882             3h
+
+Label                       Value
+-------------------------   ------
+___low_bss                = D052C6
+___len_bss                = 000000
+___heaptop                = D13FD8
+___heapbot                = D052C6
+___libs                   = D1A9EE
+___init_array_count       = 000000
+___ctors_count            = 000000
+___dtors_count            = 000000
+___fini_array_count       = 000000
+__stack                   = D1A87E
+__frameset                = D1AA7D
+__frameset0               = D1AA8B
+__ishl                    = D1AA96
+__ishru                   = D1AABC
+_os_DisableHomeTextBuffer = D1AAFD
+_os_EnableHomeTextBuffer  = D1AB0F
+_os_GetCSC                = 021D3C
+.missingappvar            = D1AC2A
+.libloadname              = D1AC2F
+.libloadnamelen           = 000007
+.webaddress               = D1AC37
+__start                   = D1AA29
+___exithl                 = D1AA49
+skip._exit                = D1AA49
+skip.__Exit               = D1AA49
+skip._abort               = D1AA49
+_exit.sp                  = D1AA4A
+_exit.flash_wait_states   = D1AA54
+_main                     = D1AB21
+_PrintCentered            = D1AB7C
+_ClearScreen              = D1ABAB
+_GreyScreen               = D1ABB5
+_.str                     = D1AC4C
+_.str.1                   = D1AC5A
+lib.LibLoad               = D1A9EE
+_#gfx_Begin               = D1AA01
+_#gfx_End                 = D1AA05
+_#gfx_SetColor            = D1AA09
+_#gfx_FillScreen          = D1AA0D
+_#gfx_SetPixel            = D1AA11
+_#gfx_SetDraw             = D1AA15
+_#gfx_Blit                = D1AA19
+_#gfx_PrintStringXY       = D1AA1D
+_#gfx_GetStringWidth      = D1AA21
+_#gfx_ZeroScreen          = D1AA25
